@@ -8,7 +8,7 @@
         public static void main(String[] args) throws Exception {
     
             float realValue = 0;
-            float dolarPrice = 0;
+            float dollarPrice = 0;
             
     
             try (Scanner inputScan = new Scanner(System.in)) {
@@ -16,10 +16,10 @@
                 System.out.println("Enter the value in reais:");
                 realValue = inputScan.nextFloat();
                 System.out.println("Enter dollar quote:");
-                dolarPrice = inputScan.nextFloat();
+                dollarPrice = inputScan.nextFloat();
             }
     
-            System.out.println("The amount of conversion from R$" + realValue + " to US$" + realValue / dolarPrice);
+            System.out.println("The amount of conversion from R$" + realValue + " to US$" + realValue / dollarPrice);
     
         }
     }
